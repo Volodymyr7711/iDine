@@ -7,19 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DC1456925FF993800292A43 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC1456825FF993800292A43 /* OrderView.swift */; };
+		2DC1456C25FF9A4700292A43 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC1456B25FF9A4700292A43 /* MainView.swift */; };
+		2DC1456F25FF9B6600292A43 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC1456E25FF9B6600292A43 /* CheckoutView.swift */; };
 		2DFD244225FF8008009927FC /* iDineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFD244125FF8008009927FC /* iDineApp.swift */; };
 		2DFD244425FF8008009927FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFD244325FF8008009927FC /* ContentView.swift */; };
 		2DFD244625FF800A009927FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFD244525FF800A009927FC /* Assets.xcassets */; };
 		2DFD244925FF800A009927FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFD244825FF800A009927FC /* Preview Assets.xcassets */; };
+		2DFD245225FF80E4009927FC /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFD245125FF80E4009927FC /* Helper.swift */; };
+		2DFD245725FF8192009927FC /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DFD245425FF8192009927FC /* menu.json */; };
+		2DFD245825FF8192009927FC /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFD245525FF8192009927FC /* Menu.swift */; };
+		2DFD245925FF8192009927FC /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFD245625FF8192009927FC /* Order.swift */; };
+		2DFD245C25FF88E1009927FC /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFD245B25FF88E1009927FC /* ItemRow.swift */; };
+		2DFD245F25FF8CCB009927FC /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFD245E25FF8CCB009927FC /* ItemDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DC1456825FF993800292A43 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		2DC1456B25FF9A4700292A43 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2DC1456E25FF9B6600292A43 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		2DFD243E25FF8008009927FC /* iDine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFD244125FF8008009927FC /* iDineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineApp.swift; sourceTree = "<group>"; };
 		2DFD244325FF8008009927FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DFD244525FF800A009927FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DFD244825FF800A009927FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2DFD244A25FF800A009927FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DFD245125FF80E4009927FC /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		2DFD245425FF8192009927FC /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		2DFD245525FF8192009927FC /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		2DFD245625FF8192009927FC /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		2DFD245B25FF88E1009927FC /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		2DFD245E25FF8CCB009927FC /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,15 @@
 			children = (
 				2DFD244125FF8008009927FC /* iDineApp.swift */,
 				2DFD244325FF8008009927FC /* ContentView.swift */,
+				2DFD245E25FF8CCB009927FC /* ItemDetail.swift */,
+				2DC1456825FF993800292A43 /* OrderView.swift */,
+				2DC1456E25FF9B6600292A43 /* CheckoutView.swift */,
+				2DC1456B25FF9A4700292A43 /* MainView.swift */,
+				2DFD245B25FF88E1009927FC /* ItemRow.swift */,
+				2DFD245425FF8192009927FC /* menu.json */,
+				2DFD245525FF8192009927FC /* Menu.swift */,
+				2DFD245625FF8192009927FC /* Order.swift */,
+				2DFD245125FF80E4009927FC /* Helper.swift */,
 				2DFD244525FF800A009927FC /* Assets.xcassets */,
 				2DFD244A25FF800A009927FC /* Info.plist */,
 				2DFD244725FF800A009927FC /* Preview Content */,
@@ -126,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DFD245725FF8192009927FC /* menu.json in Resources */,
 				2DFD244925FF800A009927FC /* Preview Assets.xcassets in Resources */,
 				2DFD244625FF800A009927FC /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +166,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DFD245F25FF8CCB009927FC /* ItemDetail.swift in Sources */,
+				2DC1456C25FF9A4700292A43 /* MainView.swift in Sources */,
+				2DC1456F25FF9B6600292A43 /* CheckoutView.swift in Sources */,
+				2DC1456925FF993800292A43 /* OrderView.swift in Sources */,
 				2DFD244425FF8008009927FC /* ContentView.swift in Sources */,
 				2DFD244225FF8008009927FC /* iDineApp.swift in Sources */,
+				2DFD245925FF8192009927FC /* Order.swift in Sources */,
+				2DFD245C25FF88E1009927FC /* ItemRow.swift in Sources */,
+				2DFD245825FF8192009927FC /* Menu.swift in Sources */,
+				2DFD245225FF80E4009927FC /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
